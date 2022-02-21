@@ -325,13 +325,13 @@ Sidebar
   text-transform: capitalize;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  color: var(--clr-grey-5);
+  color: var(--clr-primary-2);
   letter-spacing: var(--spacing);
   display: inline-block;
   margin-bottom: 1.5rem;
 }
 .sidebar-links a:hover {
-  color: var(--clr-grey-10);
+  color: var(--clr-primary-3);
 }
 .social-icons {
   display: grid;
@@ -984,7 +984,7 @@ Single Page
 ===============
 */
 .single-page {
-  background: var(--clr-primary-10);
+  background: var(--clr-primary-1);
   min-height: calc(100vh - 5rem - 198px);
 }
 .page-info {
@@ -992,12 +992,12 @@ Single Page
 }
 .page-info a {
   text-transform: uppercase;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 .page-info a:hover {
-  color: var(--clr-primary-1);
+  color: var(--clr-primary-3);
 }
 
 /*
