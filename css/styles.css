@@ -337,7 +337,7 @@ Sidebar
   justify-items: center;
 }
 .social-icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--clr-primary-2);
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -973,6 +973,8 @@ Footer
   background: black;
   display: grid;
   place-items: center;
+  z-index: 2;
+  box-shadow: 1px -3px rgba(0, 0, 0, 0.5);
 }
 .footer .social-icons {
   margin-bottom: 2rem;
