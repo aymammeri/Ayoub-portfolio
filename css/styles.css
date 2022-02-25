@@ -986,7 +986,7 @@ Footer
 }
 .footer p {
   color: var(--clr-primary-1);
-  font-size: 1.25rem;
+  font-size: 0.8rem;
   text-transform: capitalize;
 }
 /*
@@ -999,6 +999,7 @@ Single Page
   min-height: calc(100vh - 5rem - 198px);
 }
 .page-info {
+  margin-top: 5rem;
   max-width: 700px;
 }
 .page-info a {
@@ -1031,6 +1032,7 @@ Products Page
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 .project-container img {
+  width: 100%;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
 }
