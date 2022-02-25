@@ -970,7 +970,6 @@ Footer
 ===============
 */
 .footer {
-  padding-bottom: 2rem;
   background: black;
   display: grid;
   place-items: center;
@@ -979,12 +978,14 @@ Footer
   margin-bottom: 2rem;
 }
 .footer .social-icon {
+  font-size: 2.5rem;
   color: var(--clr-primary-1);
 }
 .footer .social-icon:hover {
   color: var(--clr-primary-3);
 }
 .footer p {
+  color: var(--clr-primary-1);
   font-size: 1.25rem;
   text-transform: capitalize;
 }
