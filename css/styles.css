@@ -425,7 +425,7 @@ Hero
   }
 }
 .hero-photo {
-  max-width: 25rem;
+  max-width: 20rem;
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: var(--radius);
