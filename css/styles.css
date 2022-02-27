@@ -541,6 +541,9 @@ without grid different setup */
 Projects
 ===============
 */
+.my-projects {
+ padding-top: 0;
+}
 
 .project img {
   width: 100%;
