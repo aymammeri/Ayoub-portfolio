@@ -735,12 +735,24 @@ Skills
 */
 .skills h3{
   text-align: center;
-  padding-bottom: 3rem;
 }
+
 .dev-icons {
   display: grid;
-  gap: 5%;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (min-width: 768px) {
+  .skills h3{
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .dev-icons {
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 }
 
 .dev-icon {
