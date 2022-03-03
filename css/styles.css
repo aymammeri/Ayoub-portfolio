@@ -384,7 +384,7 @@ Hero
 
 .hero-info {
   margin: auto;
-  padding: 13rem 1.37rem;
+  padding: 12rem 1.37rem;
   border-radius: 2rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -476,7 +476,7 @@ About
 }
 
 .about-photo {
-  max-width: 30rem;
+  max-width: 20rem;
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: var(--radius);
@@ -498,6 +498,7 @@ About
   }
   .about-photo {
     max-height: 50rem;
+    max-width: 30rem;
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: var(--radius);
